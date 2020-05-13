@@ -1,0 +1,12 @@
+
+X	java:S125E"<This block of commented-out lines of code should be removed.(€×‚«8ı„¿Ÿ.
+M
+java:S1168X"+Return an empty collection instead of null.(¥ªŸóúÿÿÿÿ8ç“¨Ÿ.
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(—Êµ«8•·ü‹Ÿ.
+E
+java:S1148:"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÊÜú‹Ÿ.
+E
+java:S1148`"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡¤•Ÿ.
+E
+java:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬ÜäŸ.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(š¹Ş‹8œøü‹Ÿ.

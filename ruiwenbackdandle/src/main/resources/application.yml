@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: prod # activate a doc 
+
+--- # split Doc
+server:
+  port: 8080
+spring:
+  profiles: dev # file-suffix-name
+---
+server:
+  port: 8090
+spring:
+  profiles: prod
+---
+
