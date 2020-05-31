@@ -20,4 +20,5 @@ public class QReply {
     private String rtime;
     private String iqrank;
     private String iqrange;
+    private String rcost; // 测试时长
 }

@@ -64,6 +64,7 @@ CREATE TABLE `q_record` (
   `rtime` varchar(20) NOT NULL COMMENT '提交时间',
   `iqrank` varchar(20) NOT NULL COMMENT '智力等级',
   `iqrange` varchar(20) NOT NULL COMMENT '智力范围',
+  `rcost` varchar(20) NOT NULL COMMENT '测试用时',
   PRIMARY KEY (`rid`),
   KEY `fk_ruid_uid` (`ruid`),
   CONSTRAINT `fk_ruid_uid` FOREIGN KEY (`ruid`) REFERENCES `t_user` (`uid`) ON DELETE CASCADE ON UPDATE CASCADE

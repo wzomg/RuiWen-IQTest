@@ -26,8 +26,8 @@
     </insert>
 
     <insert id="addTestRecord">
-        insert into q_record(rA, rB, rC, rD, rE, ruid, rtime, iqrank, iqrange)
-        values (#{qa.rA}, #{qa.rB}, #{qa.rC}, #{qa.rD}, #{qa.rE}, #{uid}, #{qa.rtime}, #{qa.iqrank}, #{qa.iqrange})
+        insert into q_record(rA, rB, rC, rD, rE, ruid, rtime, iqrank, iqrange, rcost)
+        values (#{qa.rA}, #{qa.rB}, #{qa.rC}, #{qa.rD}, #{qa.rE}, #{uid}, #{qa.rtime}, #{qa.iqrank}, #{qa.iqrange}, #{qa.rcost})
     </insert>
 
     <select id="getAllTestRecord" resultType="com.zzw.pojo.QReply">
