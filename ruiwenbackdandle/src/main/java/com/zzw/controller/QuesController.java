@@ -60,4 +60,10 @@ public class QuesController {
         return res;
     }
 
+    @GetMapping("/sharepics/all")
+    @ResponseBody
+    public List<QShares> getAllSharePics() {
+        List<QShares> res = quesService.getAllSharePics();
+        return res;
+    }
 }

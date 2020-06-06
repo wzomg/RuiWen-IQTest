@@ -34,4 +34,8 @@
         select * from q_record where ruid = #{uid}
     </select>
 
+    <select id="getAllSharePics" resultType="com.zzw.pojo.QShares">
+        select * from q_share_pic
+    </select>
+
 </mapper>

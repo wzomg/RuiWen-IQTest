@@ -15,4 +15,6 @@ public interface QuesService {
     public int getLeftTestCnt(String mykey);
 
     public List<QReply>  getAllTestRecord(String mykey);
+
+    public  List<QShares> getAllSharePics();
 }

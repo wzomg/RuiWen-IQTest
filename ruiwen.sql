@@ -72,6 +72,20 @@ CREATE TABLE `q_record` (
 
 /*Data for the table `q_record` */
 
+/*Table structure for table `q_share_pic` */
+
+DROP TABLE IF EXISTS `q_share_pic`;
+
+CREATE TABLE `q_share_pic` (
+  `qpid` int(11) NOT NULL AUTO_INCREMENT,
+  `qpname` varchar(100) NOT NULL,
+  PRIMARY KEY (`qpid`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4;
+
+/*Data for the table `q_share_pic` */
+
+insert  into `q_share_pic`(`qpid`,`qpname`) values (1,'http://127.0.0.1:8080/images/shares/share-chaoyou.png'),(2,'http://127.0.0.1:8080/images/shares/share-youxiu.png'),(3,'http://127.0.0.1:8080/images/shares/share-zhognshang.png'),(4,'http://127.0.0.1:8080/images/shares/share-zhongdeng.png'),(5,'http://127.0.0.1:8080/images/shares/share-zhongxia.png'),(6,'http://127.0.0.1:8080/images/shares/share-dineng.png'),(7,'http://127.0.0.1:8080/images/shares/share-quexian.png'),(8,'http://127.0.0.1:8080/images/shares/share-other.png');
+
 
 /*Table structure for table `q_topic` */
 

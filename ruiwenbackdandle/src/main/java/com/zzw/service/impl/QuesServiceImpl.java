@@ -97,4 +97,11 @@ public class QuesServiceImpl implements QuesService {
         }
         return res;
     }
+
+    @Override
+    @Cacheable(cacheNames = "shares:all", keyGenerator = "myKeyGenerator")
+    public List<QShares> getAllSharePics() {
+        List<QShares> res = quesMapper.getAllSharePics();
+        return res;
+    }
 }

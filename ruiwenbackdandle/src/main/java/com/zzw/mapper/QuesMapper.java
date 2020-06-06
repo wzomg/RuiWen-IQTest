@@ -15,4 +15,6 @@ public interface QuesMapper {
     public int addTestRecord(@Param("qa") QReply qReply, @Param("uid")  Integer uid);
 
     public List<QReply> getAllTestRecord(Integer uid);
+
+    public  List<QShares> getAllSharePics();
 }
