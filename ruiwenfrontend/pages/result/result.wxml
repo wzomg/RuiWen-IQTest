@@ -1,0 +1,16 @@
+<navigation title="测试结果" direction="top" my_class="true"></navigation>
+<view class="whole">
+	<view class="c">本次测试时长为：{{testTime}} </view>
+	<view class="a">您的智力范围为：{{iq}} </view>
+	<view class="b">智力等级为：{{des}}</view>
+	<view class="detail">
+		<view class="userbutton1">
+			<button class="but" bindtap="tiaozhuan" plain="true">详细得分情况</button>
+		</view>
+		<view class="userbutton">
+			<button class="but" open-type="share" plain="true">分享给好友
+			</button>
+			<button class="but" bindtap="begin" plain="true">返回主界面</button>
+		</view>
+	</view>
+</view>

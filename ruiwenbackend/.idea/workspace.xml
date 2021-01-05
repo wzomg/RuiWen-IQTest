@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2824413-5f57-4ca8-9803-3dc9c8a79f2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/RuiwenbackdandleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/config/CacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/controller/HandleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/controller/QuesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/controller/WeChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/interceptor/WebHandleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/mapper/QTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/mapper/QuesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/QFeedBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/QOpts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/QReply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/QShares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/QType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/Ques.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/service/QuesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/service/WeChatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/service/impl/QuesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/service/impl/WeChartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/utils/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/utils/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/java/com/zzw/vo/UserCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/mybatis/mapper/QTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/mybatis/mapper/QuesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/a96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/b96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/c96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/d96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/options/e96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/A9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/B9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/C9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/D9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/questions/E9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-chaoyou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-dineng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-other.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-quexian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-youxiu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-zhognshang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-zhongdeng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/static/images/shares/share-zhongxia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/templates/failure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/main/resources/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruiwenbackdandle/src/test/java/com/zzw/RuiwenbackdandleApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mdArVoznX8Bk1kq3uIvP10jeKd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="RuiwenbackdandleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruiwenbackend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzw.RuiwenbackdandleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\17283\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2824413-5f57-4ca8-9803-3dc9c8a79f2d" name="Default Changelist" comment="" />
+      <created>1609813292343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609813292343</updated>
+      <workItem from="1609813295908" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1865" height="271" key="GridCell.Tab.0.bottom" timestamp="1609813442458">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="271" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609813442458" />
+    <state width="1865" height="271" key="GridCell.Tab.0.center" timestamp="1609813442458">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="271" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609813442458" />
+    <state width="1865" height="271" key="GridCell.Tab.0.left" timestamp="1609813442458">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="271" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609813442458" />
+    <state width="1865" height="271" key="GridCell.Tab.0.right" timestamp="1609813442458">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="271" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609813442458" />
+  </component>
+</project>

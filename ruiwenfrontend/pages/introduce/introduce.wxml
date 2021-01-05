@@ -1,0 +1,9 @@
+<navigation title="测试说明" direction="top" my_class="true"></navigation>
+<view class="whole">
+	<view class="title"> 指导语</view>
+	<view class="context">
+		<text space="emsp">  以下每个题目都有一定的主题，但每张大的主题图中都缺少一部分，请从每题下面所给出的小图片中找出最适合大图的一张，使整个图案合理与完整。
+</text>
+	</view>
+	<button class="but" bindtap="begin" plain="true">我知道了</button>
+</view>

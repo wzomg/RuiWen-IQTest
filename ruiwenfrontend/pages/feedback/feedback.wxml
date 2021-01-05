@@ -1,0 +1,19 @@
+<!--pages/feedback/feedback.wxml-->
+<navigation title="意见反馈" style="left" direction="top" my_class="true"></navigation>
+<view class="opinion_wrap">
+	<form bindsubmit="formSubmit">
+		<view class="content_wrap">
+			<view class="detail-view">
+				<text class='detail-placeholder' hidden='{{isHidePlaceholder}}' bindtap='bindtapFunc'>{{placeHolder}}</text>
+				<textarea class='detail-textarea' name='opinion' auto-height='true' value='{{textAreaValue}}' focus='{{focusActive}}' maxlength='{{wordMax}}' bindinput='getTextareaInput' hidden='{{isHideTextarea}}' />
+				</view>
+          <view class="currentWordNumber">
+              <text>{{currentWordNumber}}/{{wordMax}}</text>
+          </view>
+      </view>  
+      <view class="phone">
+          <input name="contact" value="{{contact}}" placeholder-class="placeholder" maxlength='30' placeholder="请留下您的邮箱，方便我们及时回复" />
+      </view>
+      <button formType="submit" hover-class="none" loading="{{loading}}">提交</button>
+  </form>
+</view>

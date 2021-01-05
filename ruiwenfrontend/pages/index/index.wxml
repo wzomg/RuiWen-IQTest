@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="whole">
+	<image class='background-image' src='/pic/tower.png' mode="aspectFill"></image>
+	<view class="title">瑞文标准智力测验</view>
+	<view class="container">
+		<view class="usermotto">
+			<text class="user-motto">{{motto}}</text>
+		</view>
+		<view wx:if="{{userInfo == null}}" class="userbutton">
+			<!-- 引导用户进行授权：open-type="getUserInfo" -->
+			<scroll-view scroll-y="true" style="height: 200px">
+				<view class="context">
+					<text space="emsp">  本测评依据英国心理学家瑞文(J.C.Raven)在1938年设计的非文字智力测试(瑞文标准推理测验-SPM)，是目前世界上应用最广泛的智力测试工具之一，测量你解决问题的能力、观察力、思维能力、发现和利用自己所需的信息及适应社会生活的能力。推理能力的高低，能够度量出一个人是否具有正常的理性思维，是否能够胜任日常的生活和工作，是否能够合理客观地判断和分析事物。测评结果将从5个维度来评估您的智力结构。您的智力水平有多高？测一下便知。
+适合人群：6岁~70岁
+</text>
+				</view>
+			</scroll-view>
+			<button class="but" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录答题 </button>
+			<button class="but" bindtap="feedback">意见反馈</button>
+			<!--<button class="but" bindtap="detailedInfo"> 测试介绍 </button> -->
+		</view>
+		<view wx:else class="userbutton">
+			<button class="but" bindtap="begin">开始测试</button>
+			<button class="but" bindtap="testRecord">测试记录</button>
+			<button class="but" bindtap="feedback">意见反馈</button>
+		</view>
+	</view>
+</view>

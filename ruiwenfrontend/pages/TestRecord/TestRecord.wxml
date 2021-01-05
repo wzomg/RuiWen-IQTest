@@ -1,0 +1,19 @@
+<!--TestRecord.wxml-->
+<navigation title="测试记录" direction="top" my_class="true"></navigation>
+
+<view class="user_info">
+	<image bindtap="bindViewTap" class="user_avatar" src="{{userInfo.avatarUrl}}" background-size="100%"></image>
+	<text class="user_nickname">{{userInfo.nickName}}</text>
+	<text wx:if="{{testRecords.length == 0}}" class="context" space="emsp">暂无测试记录</text>
+	<!-- 滚动条 -->
+	<scroll-view wx:else class="record_container" scroll-y refresher-enabled="{{true}}" refresher-threshold="{{50}}" refresher-default-style="white" refresher-background="rgba(69, 28, 252,0.15)" refresher-triggered="{{triggered}}" bindrefresherpulling="onPulling" bindrefresherrefresh="onRefresh" bindrefresherrestore="onRestore" bindrefresherabort="onAbort">
+		<!-- 滚动条测试 -->
+		<view class="record_item" data-index="{{index}}" wx:for="{{testRecords}}" wx:key="rid" bindtap="turnToResultPage">
+			<text decode="{{true}}">智力范围: {{item.iqrank}}</text>
+			<text decode="{{true}}">智力等级: {{item.iqrange}}</text>
+			<text decode="{{true}}">测试时间: {{item.rtime}}</text>
+			<text decode="{{true}}">测试时长: {{item.rcost}}</text>
+		</view>
+		<!-- 滚动条测试 -->
+	</scroll-view>
+</view>

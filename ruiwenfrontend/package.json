@@ -1,0 +1,25 @@
+{
+  "name": "ruiwen",
+  "version": "1.0.0",
+  "description": "软件项目管理-瑞文智力测试小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "regenerator": "0.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzomg/RuiWen-IQTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzomg/RuiWen-IQTest/issues"
+  },
+  "homepage": "https://github.com/wzomg/RuiWen-IQTest#readme",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.3"
+  }
+}

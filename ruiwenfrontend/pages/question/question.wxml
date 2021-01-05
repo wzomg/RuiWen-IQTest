@@ -1,0 +1,29 @@
+<navigation title="瑞文智力测验" style="left" direction="top" my_class="true"></navigation>
+<view class="content">
+	<progress percent="{{percentValue}}" active-mode="forwards" stroke-width="8" border-radius="30" activeColor="#00BFFF" backgroundColor="#E1FFFF" class="progress-bar" active show-info />
+	<!--题目框-->
+	<view class="context">
+		<text>
+		{{curIndex >= 60 ? 60 : curIndex + 1}}. 请找出大图中空缺的部分，使整个大图合理完整。
+		</text>
+	</view>
+	<view class="question_image_container">
+		<!-- <view class="question"> -->
+		<image src="{{qdes}}" bindload='imageLoad' class="pic" mode="sacleToFill"></image>
+		<!-- </view> -->
+	</view>
+
+	<view class="ans_container">
+		<!--选项-->
+		<radio-group class="radio-group" bindchange="radioChange" required>
+			<radio class="radio" wx:for="{{qoptsList}}" wx:key="oid" value="{{item.odes}}">
+				<label for="{{item.odes}}">
+					<image src="{{item.odes}}" class="answerPic" mode="aspectFill"></image>
+				</label>
+			</radio>
+		</radio-group>
+
+	</view>
+
+	<button class="but" loading="{{loading}}" plain="true" bindtap="nextProblem"> {{curIndex>=totQuesSize-1?"提交":"下一题"}} </button>
+</view>

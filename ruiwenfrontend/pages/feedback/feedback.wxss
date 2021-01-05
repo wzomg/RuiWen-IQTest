@@ -1,0 +1,73 @@
+/* pages/feedback/feedback.wxss */
+
+page {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 174, 255, 0.7), rgba(0, 174, 255, 0.1), rgba(255, 166, 0, 0.127));
+
+}
+
+.content_wrap {
+  background-color: rgb(249, 251, 252);
+}
+
+textarea {
+  min-height: 320rpx;
+  width: 100%;
+}
+
+.currentWordNumber {
+  font-size: 15px;
+  color: gray;
+  text-align: right;
+}
+
+input {
+  margin-top: 30rpx;
+  height: 100rpx;
+  padding-left: 20rpx;
+  background-color: #fff;
+}
+
+.placeholder {
+  color: #b6b6b6;
+  font-size: 15px;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+}
+
+.phone {
+  font-size: 15px;
+}
+
+button {
+  margin: 30px;
+  box-shadow: 0px 2px 4px 2px #33a7d4;
+  border-radius: 20px;
+  background-color: rgba(221, 239, 247, 0.507);
+  color: rgb(47, 49, 11);
+  font-size: large;
+}
+
+/* 实现textarea高度自适应 */
+.detail-view {
+  /* 用于重叠 */
+  position: relative;
+  padding: 10rpx;
+  margin: 0 auto;
+}
+
+.detail-placeholder {
+  /* 用于重叠 */
+  position: absolute;
+  /* 用于与textarea的光标起始位置对齐 */
+  min-height: 100%;
+  color: #b6b6b6;
+  font-size: 15px;
+}
+
+.detail-textarea {
+  /* 用于顶部与text对齐 */
+  width: 100%;
+  font-size: 15px;
+}

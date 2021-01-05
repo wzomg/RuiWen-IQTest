@@ -1,0 +1,24 @@
+<navigation title="年龄选择" direction="top" my_class="true"></navigation>
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="context">
+		<text space="emsp">  请如实选择您的年龄所在区间，测试结果与年龄相关
+</text>
+	</view>
+	<view class="page__bd">
+		<view class="weui-btn-area">
+			<picker bindchange="bindPickerChange1" value="{{index}}" range="{{array1}}">
+				<a class="weui-btn weui-btn_default">5岁~10岁</a>
+			</picker>
+		</view>
+		<view class="weui-btn-area">
+			<picker bindchange="bindPickerChange2" value="{{index}}" range="{{array2}}">
+				<a class="weui-btn weui-btn_default">10岁~16岁</a>
+			</picker>
+		</view>
+		<view class="weui-btn-area">
+			<picker bindchange="bindPickerChange3" value="{{index}}" range="{{array3}}">
+				<a class="weui-btn weui-btn_default">17岁~79岁</a>
+			</picker>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,51 @@
+/* pages/result/result.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(rgba(0, 174, 255, 0.534), rgba(255, 166, 0, 0.247));
+}
+
+.whole {
+  width: 100%;
+  height: 100%;
+  /* background-size: cover; */
+  left: 50%;
+  top: 72%;
+  position: absolute;
+  margin-top: -140px;
+  margin-left: -140px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.score {
+  width: 280px;
+  height: 20px;
+  font-family: "幼圆";
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.title {
+  width: 280px;
+  height: 20px;
+  font-size: 40rpx;
+  font-family: "幼圆";
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.detail {
+  text-align: center;
+  font-weight: 600;
+}
+
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}

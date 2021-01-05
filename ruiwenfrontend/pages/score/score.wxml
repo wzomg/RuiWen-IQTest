@@ -1,0 +1,16 @@
+<navigation title="详细得分" direction="top" my_class="true"></navigation>
+
+<view class="canvs_container">
+	<ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+</view>
+
+<view class="whole">
+	<view class="detail">
+		<view class="title">各部分得分结果如下：</view>
+		<view class="score">反映直觉辨别能力得分：{{A}}</view>
+		<view class="score">反映同类比较能力得分：{{B}}</view>
+		<view class="score">反映比较推理能力得分：{{C}}</view>
+		<view class="score">反映系列关系能力得分：{{D}}</view>
+		<view class="score">反映抽象推理能力得分：{{E}}</view>
+	</view>
+</view>

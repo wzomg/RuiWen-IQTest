@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result",
+    "pages/score/score",
+    "pages/introduce/introduce",
+    "pages/age/age",
+    "pages/question/question",
+    "pages/logs/logs",
+    "pages/feedback/feedback",
+    "components/test/test"
+  ],
+  "window": {
+    "navigationBarTitleText": "瑞文标准智力测验",
+    "navigationBarBackgroundColor": "#24AFFF",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "navigation": "/components/navigation/navigation"
+  },
+  "sitemapLocation": "sitemap.json"
+}
